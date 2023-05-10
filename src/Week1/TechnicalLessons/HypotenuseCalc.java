@@ -25,4 +25,5 @@ public class HypotenuseCalc {
         double alan=(a*b)/2.00;
         System.out.println("Ücgenin Alanı: "+alan);
     }
+
 }
