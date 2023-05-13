@@ -55,5 +55,9 @@ public class GradeAverage {
 
         int gno = toplam / islem;
         System.out.println("Genel not ortalaması: " + gno);
+        if (gno<=55){
+            System.out.println("Üzgünüz Sınıfta Kaldınız Az ders çalış. ");
+        }
+        else System.out.println("Sınıfı Geçtiniz");
     }
 }
